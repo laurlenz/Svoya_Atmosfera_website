@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Своя атмосфера — ботанические ароматы для дома и автомобиля.">
+  <title>Своя атмосфера — ботаническая коллекция</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Manrope:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="header" id="siteHeader">
+  <a class="brand" href="#top">
+    <img class="brand-branch" src="./assets/branch-2.png" alt="">
+    <span><strong>Своя атмосфера</strong><small>ботанические ароматы для дома и автомобиля</small></span>
+  </a>
+</header>
+
+<button class="floating-cart" id="openCart" aria-label="Открыть корзину">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 8h12l-1 12H7L6 8Z"></path><path d="M9 8V6a3 3 0 0 1 6 0v2"></path></svg>
+  <span>Корзина</span><b id="cartCount">0</b>
+</button>
+
+<main id="top">
+  <section class="hero">
+    <img src="./assets/hero.png" alt="Ботаническая коллекция Своя атмосфера" onerror="this.classList.add('image-error')">
+    <div class="hero-overlay"></div>
+    <div class="hero-copy">
+      <p class="eyebrow">BOTANICAL COLLECTION</p>
+      <h1>Своя атмосфера</h1>
+      <p>Ароматы растений, древесины и трав для дома и автомобиля.</p>
+      <a class="text-link light" href="#collection">Смотреть коллекцию ↓</a>
+    </div>
+  </section>
+
+  <section class="product-section" id="collection">
+    <div class="section-heading">
+      <h2>Свечи</h2><span class="section-rule"></span><span class="section-number">01</span>
+      <img class="branch" src="./assets/branch-2.png" alt="">
+      <p>Тёплый свет и природные композиции.</p>
+    </div>
+    <div class="product-grid" id="candlesGrid"></div>
+  </section>
+
+  <section class="product-section">
+    <div class="section-heading">
+      <h2>Диффузоры</h2><span class="section-rule"></span><span class="section-number">02</span>
+      <img class="branch" src="./assets/branch-1.png" alt="">
+      <p>Аромат постепенно наполняет пространство и остаётся надолго.</p>
+    </div>
+    <div class="product-grid" id="diffusersGrid"></div>
+  </section>
+
+  <section class="product-section">
+    <div class="section-heading">
+      <h2>Автопарфюм</h2><span class="section-rule"></span><span class="section-number">03</span>
+      <img class="branch" src="./assets/branch-2.png" alt="">
+      <p>Стеклянный флакон-куб с деревянной крышкой и шнуром.</p>
+    </div>
+    <div class="product-grid" id="carGrid"></div>
+  </section>
+
+  <section class="product-section">
+    <div class="section-heading">
+      <h2>Восковые саше</h2><span class="section-rule"></span><span class="section-number">04</span>
+      <img class="branch" src="./assets/branch-1.png" alt="">
+      <p>Ароматные формы для шкафа, комнаты и небольших пространств.</p>
+    </div>
+    <div class="product-grid" id="sachetsGrid"></div>
+  </section>
+
+  <section class="story">
+    <div class="story-image"><img src="./assets/hero.png" alt="Ботаническая коллекция"></div>
+    <div class="story-copy">
+      <p class="eyebrow">О БРЕНДЕ</p>
+      <h2>Растения создают особое состояние.</h2>
+      <p>«Своя атмосфера» — маленькая ботаническая коллекция для пространства вокруг нас. Мы собираем композиции, вдохновлённые травами, деревьями, цветами и природными материалами.</p>
+      <p>Каждый аромат получает своё растение, имя и графический образ.</p>
+    </div>
+  </section>
+
+  <section class="info-grid">
+    <div><span class="eyebrow">ДОСТАВКА</span><h3>Отправляем заказы по России.</h3><p>Способ и стоимость доставки согласуем при оформлении.</p></div>
+    <div><span class="eyebrow">КОЛЛЕКЦИЯ</span><h3>Небольшие партии.</h3><p>Ассортимент постепенно пополняется новыми ботаническими композициями.</p></div>
+    <div><span class="eyebrow">СВЯЗЬ</span><h3>Будем на связи.</h3><p>Заказ можно оформить прямо на сайте, а вопросы задать в соцсетях или по почте.</p></div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="footer-brand">
+    <img class="footer-branch" src="./assets/branch-1.png" alt="">
+    <div><strong>Своя атмосфера</strong><span>ботанические ароматы для дома и автомобиля</span></div>
+  </div>
+  <div class="footer-contact">
+    <a href="mailto:svoya.atmosfera.candle@yandex.ru">svoya.atmosfera.candle@yandex.ru</a>
+    <div class="socials">
+      <a href="https://t.me/svoya_atmos" target="_blank" rel="noopener">Telegram</a>
+      <a href="https://vk.com/candle_ll" target="_blank" rel="noopener">VK</a>
+      <a href="https://www.instagram.com/svoya_atmosfera_candle" target="_blank" rel="noopener">Instagram</a>
+    </div>
+  </div>
+  <small>© 2026 Своя атмосфера</small>
+</footer>
+
+<aside class="drawer" id="cartDrawer" aria-hidden="true">
+  <div class="drawer-head"><h2>Корзина</h2><button id="closeCart" aria-label="Закрыть корзину">×</button></div>
+  <div id="cartItems" class="cart-items"></div>
+  <div class="cart-bottom"><div class="total"><span>Итого</span><strong id="cartTotal">0 ₽</strong></div><button class="primary" id="checkoutBtn">Оформить заказ</button></div>
+</aside>
+<div class="backdrop" id="backdrop"></div>
+
+<div class="modal" id="productModal" aria-hidden="true">
+  <div class="modal-card product-modal-card">
+    <button class="modal-close" data-close="productModal" aria-label="Закрыть">×</button>
+    <div class="product-carousel" id="productCarousel">
+      <div class="carousel-slide active" data-slide="0">Фото 1</div>
+      <div class="carousel-slide" data-slide="1">Фото 2</div>
+      <button class="carousel-arrow carousel-prev" type="button" aria-label="Предыдущее фото">‹</button>
+      <button class="carousel-arrow carousel-next" type="button" aria-label="Следующее фото">›</button>
+      <div class="carousel-dots" aria-label="Выбор фото">
+        <button type="button" class="carousel-dot active" data-slide-to="0" aria-label="Фото 1"></button>
+        <button type="button" class="carousel-dot" data-slide-to="1" aria-label="Фото 2"></button>
+      </div>
+    </div>
+    <div class="modal-info">
+      <p class="eyebrow" id="modalLatin"></p>
+      <h2 id="modalName"></h2>
+      <p id="modalDesc"></p>
+      <div class="modal-meta"><span id="modalSize"></span><strong id="modalPrice"></strong></div>
+      <button class="primary" id="modalAdd">Добавить в корзину</button>
+    </div>
+  </div>
+</div>
+
+<div class="modal" id="checkoutModal" aria-hidden="true">
+  <div class="modal-card checkout-card">
+    <button class="modal-close" data-close="checkoutModal" aria-label="Закрыть">×</button>
+    <div class="modal-info">
+      <p class="eyebrow">ЗАКАЗ</p>
+      <h2>Оформление</h2>
+      <div id="checkoutSummary" class="checkout-summary"></div>
+      <form id="orderForm">
+        <label>Имя<input name="name" required autocomplete="name"></label>
+        <label>Телефон или Telegram<input name="contact" required></label>
+        <label>Комментарий<textarea name="comment" rows="3" placeholder="Удобный способ доставки, пожелания…"></textarea></label>
+        <button class="primary" type="submit">Отправить заказ</button>
+      </form>
+      <div id="orderError" class="order-result error" hidden></div>
+    </div>
+  </div>
+</div>
+
+<div class="modal" id="successModal" aria-hidden="true">
+  <div class="modal-card checkout-card success-card">
+    <button class="modal-close" data-close="successModal" aria-label="Закрыть">×</button>
+    <div class="modal-info">
+      <p class="eyebrow">ЗАКАЗ ОТПРАВЛЕН</p>
+      <h2>Ваш заказ</h2>
+      <div id="successSummary" class="checkout-summary"></div>
+      <p class="success-message">Заказ отправлен. Мы свяжемся с вами для подтверждения заказа и доставки.</p>
+      <button class="primary" id="successClose" type="button">Вернуться к коллекции</button>
+    </div>
+  </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
