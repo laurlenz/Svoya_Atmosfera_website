@@ -186,7 +186,7 @@ const ORDER_EMAIL='svoya.atmosfera.candle@yandex.ru'; // для запасной
 
 // Ключ доступа Web3Forms: получить на https://web3forms.com (укажите почту, куда должны приходить заказы),
 // затем вставьте вместо ВСТАВЬТЕ_КЛЮЧ. Ключ не секретный: он и так виден в коде страницы.
-const WEB3FORMS_KEY='ВСТАВЬТЕ_КЛЮЧ';
+const WEB3FORMS_KEY='2433fc03-5255-4d12-8e38-b16e715e0dee';
 const ORDER_ENDPOINT='https://api.web3forms.com/submit';
 
 // Возвращает null при успехе или короткий код причины сбоя
